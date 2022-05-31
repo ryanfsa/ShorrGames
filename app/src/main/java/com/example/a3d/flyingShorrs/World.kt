@@ -1,10 +1,10 @@
-package com.example.a3d
+package com.example.a3d.flyingShorrs
 
 class World {
 }
 
 fun getTriArray(): Array<Tri>{
-    var result : Array<Tri> = Array(0){Tri(triangleCoords,floatArrayOf(1f,0f,0f,1f))}
+    var result : Array<Tri> = Array(0){ Tri(triangleCoords,floatArrayOf(1f,0f,0f,1f)) }
     result += Tri(floatArrayOf(-5000f,-6f,-5000f , -5000f,-6f,5000f , 5000f,-6f,5000f), floatArrayOf(0f,0f,0.5f,1f))
     result += Tri(floatArrayOf(-5000f,-6f,-5000f ,  5000f,-6f,-5000f, 5000f,-6f,5000f), floatArrayOf(0f,0f,0.5f,1f))
     var heights = Array(12) {FloatArray(12)}
@@ -40,7 +40,7 @@ fun getTriArray(): Array<Tri>{
     return result
 }
 fun getPlane(): Array<Tri>{
-    var result : Array<Tri> = Array(0){Tri(triangleCoords,floatArrayOf(1f,0f,0f,1f))}
+    var result : Array<Tri> = Array(0){ Tri(triangleCoords,floatArrayOf(1f,0f,0f,1f)) }
     var blue = floatArrayOf(0.3f,0.3f,0.6f,1f)
     var gray = floatArrayOf(0.5f,0.5f,0.5f,1f)
     result += Tri(floatArrayOf(0f,0.5f,0f , 0f,0f,1f , 0.5f,0f,0f), gray)
@@ -70,7 +70,7 @@ fun getPlane(): Array<Tri>{
     return result
 }
 fun getTarget(): Array<Tri>{
-    var result : Array<Tri> = Array(0){Tri(triangleCoords,floatArrayOf(1f,0f,0f,1f))}
+    var result : Array<Tri> = Array(0){ Tri(triangleCoords,floatArrayOf(1f,0f,0f,1f)) }
     var red = floatArrayOf(0.7f,0.2f,0.2f,1f)
     for(angle in 0..7){
         result += Tri(floatArrayOf(Math.cos(angle*0.7854).toFloat() * 4f,Math.sin(angle*0.7854).toFloat() * 4f,0f

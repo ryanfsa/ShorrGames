@@ -5,7 +5,12 @@
       <map>
         <entry key="../../../../layout/custom_preview.xml" value="0.24820512820512822" />
         <entry key="app/src/main/res/drawable/back.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_chess_main.xml" value="0.44114583333333335" />
+        <entry key="app/src/main/res/layout/activity_flappy_main.xml" value="0.18931159420289856" />
+        <entry key="app/src/main/res/layout/activity_flying_main.xml" value="0.21453900709219859" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.31567028985507245" />
+        <entry key="app/src/main/res/layout/activity_tiktakshorr.xml" value="0.21453900709219859" />
       </map>
     </option>
   </component>

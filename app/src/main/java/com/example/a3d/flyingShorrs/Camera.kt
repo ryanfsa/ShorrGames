@@ -1,4 +1,4 @@
-package com.example.a3d
+package com.example.a3d.flyingShorrs
 
 class Camera(var p : Player){
     var pos : FloatArray = floatArrayOf(10f,5f,0f)
