@@ -73,7 +73,12 @@ object ChessGame {
         turn = 0
         lastMove = LastMove(Square(0,0), Square(0,0), Player.WHITE, Types.PAWN)
         chessArray.removeAll(chessArray)
-
+        hasWhiteKingMoved = false
+        hasBlackKingMoved = false
+        hasRookA1Moved = false
+        hasRookA8Moved = false
+        hasRookH1Moved = false
+        hasRookH8Moved = false
         chessArray.add(Piece(3, 0, Player.WHITE, Types.QUEEN, R.drawable.queen_white))
         chessArray.add(Piece(3, 7, Player.BLACK, Types.QUEEN, R.drawable.queen_black))
         chessArray.add(Piece(4, 0, Player.WHITE, Types.KING, R.drawable.king_white_shorr))
